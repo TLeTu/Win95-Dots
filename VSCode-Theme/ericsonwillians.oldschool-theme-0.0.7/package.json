@@ -1,0 +1,84 @@
+{
+	"name": "oldschool-theme",
+	"publisher": "EricsonWillians",
+	"displayName": "Oldschool Theme",
+	"description": "An actually usable theme for those who suffer from severe nostalgia, inspired by QBasic and MS-DOS in general.",
+	"repository": "https://github.com/EricsonWillians/oldschool-theme",
+	"license": "GNU",
+	"version": "0.0.7",
+	"keywords": [
+		"oldschool",
+		"qbasic",
+		"win95",
+		"windows 95",
+		"ms-dos",
+		"msdos",
+		"90s",
+		"nostalgic",
+		"old",
+		"borland",
+		"monokai",
+		"high-contrast"
+	],
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Oldschool Theme (QBasic)",
+				"uiTheme": "hc-black",
+				"path": "./themes/oldschool-qbasic-color-theme.json"
+			},
+			{
+				"label": "Oldschool Theme (Darker QBasic)",
+				"uiTheme": "hc-black",
+				"path": "./themes/oldschool-darker-qbasic-color-theme.json"
+			},
+			{
+				"label": "Oldschool Theme (Olive)",
+				"uiTheme": "hc-black",
+				"path": "./themes/oldschool-olive-color-theme.json"
+			},
+			{
+				"label": "Oldschool Theme (Gray)",
+				"uiTheme": "hc-black",
+				"path": "./themes/oldschool-gray-color-theme.json"
+			},
+			{
+				"label": "Oldschool Theme (Purple)",
+				"uiTheme": "hc-black",
+				"path": "./themes/oldschool-purple-color-theme.json"
+			},
+			{
+				"label": "Oldschool Theme (Maroon)",
+				"uiTheme": "hc-black",
+				"path": "./themes/oldschool-maroon-color-theme.json"
+			},
+			{
+				"label": "Oldschool Theme (Evil)",
+				"uiTheme": "hc-black",
+				"path": "./themes/oldschool-evil-color-theme.json"
+			},
+			{
+				"label": "Oldschool Theme (Teal)",
+				"uiTheme": "hc-black",
+				"path": "./themes/oldschool-teal-color-theme.json"
+			},
+			{
+				"label": "Oldschool Theme (Green)",
+				"uiTheme": "hc-black",
+				"path": "./themes/oldschool-green-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1748876161762,
+		"targetPlatform": "undefined",
+		"size": 841361
+	}
+}

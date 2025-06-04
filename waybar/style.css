@@ -1,0 +1,344 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Sans Serif", "Font Awesome 5 Free";
+    font-size: 14;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #c0c0c0;
+    color: #000000;
+    box-shadow: 0px 0px 3px 0px #00000;
+    border-bottom: solid 1px #404040;
+
+}
+
+#workspaces button {
+    padding: 5px 10px;
+    margin: 5px 3px;
+    background: #c0c0c0;
+    color: #000000;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+
+}
+
+#workspaces button:hover {
+    color: #ffffff;
+    box-shadow: 0px 0px 0px;
+    text-shadow: none;
+    background: #000080;
+}
+
+#workspaces button.focused {
+    background: #E0E0E0;
+    color: #000000;
+}
+
+#custom-start {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    font-weight: bold;
+    background: url('/home/leetuws/.icons/Chicago95-tux/places/scalable/start-here.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+}
+
+#network {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+}
+#network:hover {
+    color: #ffffff;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 0px;
+    text-shadow: none;
+    background: #000080;
+}
+
+#bluetooth {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+}
+#bluetooth:hover {
+    color: #ffffff;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 0px;
+    text-shadow: none;
+    background: #000080;
+}
+
+#custom-power {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+}
+#custom-power:hover {
+    color: #ffffff;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 0px;
+    text-shadow: none;
+    background: #000080;
+}
+
+#idle_inhibitor {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+}
+#idle_inhibitor:hover {
+    color: #ffffff;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 0px;
+    text-shadow: none;
+    background: #000080;
+}
+
+#power-profiles-daemon {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+}
+#power-profiles-daemon:hover {
+    color: #ffffff;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 0px;
+    text-shadow: none;
+    background: #000080;
+}
+
+#custom-start:hover {
+    color: #ffffff;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 0px;
+    text-shadow: none;
+    background-color: #000080;
+}
+
+#custom-start:active {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 0px;
+    text-shadow: none;
+    background-color: #f0f0f0;
+}
+
+#window {
+    padding: 5px 10px;
+    margin: 5px 3px;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+}
+
+#custom-spotify {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-color: #b0b0b0;
+    color: #000000;
+    font-family: "Sans Serif", "Font Awesome 5 Free";
+    font-size: medium;
+    border-left: 0.5px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    box-shadow: -1px -0.5px 0px 0px #000000;
+    background-position: right;
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+#battery {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-color: #c0c0c0;
+    color: #000000;
+    font-family: "Sans Serif", "Font Awesome 5 Free";
+    font-size: medium;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+    background-position: right;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+#backlight {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-color: #c0c0c0;
+    color: #000000;
+    font-family: "Sans Serif", "Font Awesome 5 Free";
+    font-size: medium;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+    background-position: right;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+#wireplumber {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-color: #c0c0c0;
+    color: #000000;
+    font-family: "Sans Serif", "Font Awesome 5 Free";
+    font-size: medium;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+    background-position: right;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+#pulseaudio {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-color: #c0c0c0;
+    color: #000000;
+    font-family: "Sans Serif", "Font Awesome 5 Free";
+    font-size: medium;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+    background-position: right;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+#pulseaudio:hover {
+    color: #ffffff;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 0px;
+    text-shadow: none;
+    background-color: #000080;
+}
+
+#memory {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-color: #c0c0c0;
+    color: #000000;
+    font-family: "Sans Serif", "Font Awesome 5 Free";
+    font-size: medium;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+    background-position: right;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+#cpu {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-color: #c0c0c0;
+    color: #000000;
+    font-family: "Sans Serif", "Font Awesome 5 Free";
+    font-size: medium;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #404040;
+    box-shadow: 1px 1px 1px 0px #000000;
+    background-position: right;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+#clock {
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-color: #b0b0b0;
+    color: #000000;
+    font-family: "Sans Serif", "Font Awesome 5 Free";
+    font-size: medium;
+    border-left: 0.5px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    box-shadow: -1px -0.5px 0px 0px #000000;
+    background-position: right;
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+/*#battery button:hover,*/
+
+/*#pulseaudio:hover {
+    background-color: #E0E0E0;
+    box-shadow: 0px 0px 0px;
+}*/
+
+#custom-spotify {
+    font-size: 12;
+}
